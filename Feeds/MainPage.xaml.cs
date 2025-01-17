@@ -15,7 +15,7 @@ namespace Feeds
             sender.CoreWebView2.Settings.IsStatusBarEnabled = false;
             sender.CoreWebView2.Settings.IsSwipeNavigationEnabled = false;
             sender.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
-            sender.CoreWebView2.Settings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.14.4.19041; 10.0.0.0.19044.1645) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19045";
+            sender.CoreWebView2.Settings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.14.4.19041; 10.0.0.0.19045.5371) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19045";
             sender.NavigationStarting += WebView2Control_NavigationStarting;
             sender.NavigationCompleted += WebView2Control_NavigationCompleted;
             sender.CoreWebView2.NewWindowRequested += CoreWebView2_NewWindowRequested;
